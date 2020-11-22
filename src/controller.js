@@ -1,5 +1,5 @@
 //Llamando al client soap del sistema de software 2a
-const CLIENT = require(`../soap_clients/client2`);
+const CLIENT = require(`./client2`);
 
 
 //Controller de la ruta
