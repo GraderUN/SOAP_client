@@ -11,4 +11,4 @@ RUN npm install
 COPY . /ss-interface-soap
 
 EXPOSE  6060
-CMD [ "node", "./src/soap_server/index.js"]
+CMD [ "node", "./src/index.js"]
