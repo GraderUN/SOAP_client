@@ -6,6 +6,7 @@ async function getPuntajes() {
 
     const client = await soap.createClientAsync('http://3.238.206.242:8001/wsdl?wsdl');
 
+
     let puntajes = () => {
         return new Promise(resolve => {
             client.getuser((err, result) => {
