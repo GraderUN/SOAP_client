@@ -26,7 +26,7 @@ async function working(req, res){
 
 async function fake(req, res){
     //Retornar resultado
-    let data = {"0":{email:'mail.@mail.com',name:'Test user', puntaje: '0'}}
+    let data = [{email:'mail.@mail.com',name:'Test user', puntaje: '0'}]
 
     res.send(data);
 }
