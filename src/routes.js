@@ -7,7 +7,8 @@ const controller = require(`./controller`);
 
 //Servicio  Example
 api.get('/', controller.getAllPuntctuation);
-api.get('/work' , controller.working);
-api.get('/fake' , controller.fake);
+api.get('/work', controller.working);
+api.get('/fake', controller.fake);
+api.get('/fake/:count', controller.fake);
 
 module.exports = api
